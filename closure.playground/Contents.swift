@@ -19,4 +19,5 @@ closure()
 My favorite color is blue
 Today is Tuesday.
  
- beacuse that Constant declare with the let keyword and color variable is in included so color value not change .. so that output is color=blue.*/
+color = blue is because of closer capture [color] value when it construct, it is irrelevant to let and var,
+after construction of that constant if we change color that will not reflect in closure.*/
